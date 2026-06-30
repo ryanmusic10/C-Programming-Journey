@@ -29,7 +29,7 @@ int main () {
     fgets(verb, sizeof(verb), stdin);
     verb[strlen(verb) - 1] = '\0'; // Remove newline character from input
 
-    printf("\nToday the %s person named %s , \n who was looking for his %s %s cat, \n started %s", adjective1, noun, adjective2, adjective3, verb);
+    printf("\nToday the %s person named %s , \n who was looking for his %s,  %s cat, \n started %s", adjective1, noun, adjective2, adjective3, verb);
 
     return 0;
 }
