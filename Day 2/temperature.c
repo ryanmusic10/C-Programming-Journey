@@ -73,9 +73,7 @@ printf("Enter Temperature in Kelvin : ");
 
 else{
 
-printf("Error Please Enter according to given options");
-
-
+printf("Error,\n Please Enter according to given options");
 
 }
 
